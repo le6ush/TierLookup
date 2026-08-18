@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "tierlookup:font/kit_icons.png",
+      "ascent": 11,
+      "height": 13,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}

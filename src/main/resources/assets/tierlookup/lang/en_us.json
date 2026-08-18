@@ -1,0 +1,7 @@
+{
+  "key.tierlookup.open": "TierLookup: open",
+  "key.category.tierlookup.controls": "TierLookup",
+  "modmenu.nameTranslation.tierlookup": "TierLookup",
+  "modmenu.summaryTranslation.tierlookup": "Client-side PvP tier lookup with TAB integration, hover tables, search, notes, and offline caching.",
+  "modmenu.descriptionTranslation.tierlookup": "Client-side PvP tier lookup with TAB integration, hover tables, search, notes, and offline caching."
+}

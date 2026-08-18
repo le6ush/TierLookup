@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a reproducible TierLookup problem
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: input
+    id: minecraft
+    attributes:
+      label: Minecraft version
+      placeholder: "1.21.11"
+    validations:
+      required: true
+  - type: input
+    id: tierlookup
+    attributes:
+      label: TierLookup version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Join a server
+        2. Open Custom TAB
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Attach the relevant TierLookup log, crash report, or screenshots if available.

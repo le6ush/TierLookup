@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tierlookup",
+  "version": "${version}",
+  "name": "TierLookup",
+  "description": "Client-side PvP tier lookup with sortable TAB, hover tables, player search, notes, live lookups, and an offline SQLite mirror.",
+  "authors": [
+    "Lebushe"
+  ],
+  "license": "ARR",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.tierlookup.TierLookupClient"
+    ],
+    "modmenu": [
+      "com.tierlookup.client.TierLookupModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.6+1.21.11"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
